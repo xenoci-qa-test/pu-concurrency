@@ -6,14 +6,14 @@ on:
   workflow_dispatch:
 jobs:
   a:
-    runs-on: macos-latest
+    runs-on: xenoci-macos-latest
     steps:
       - run: echo job a; sleep 90
   b:
-    runs-on: macos-latest
+    runs-on: xenoci-macos-latest
     steps:
       - run: echo job b; sleep 90
   c:
-    runs-on: macos-latest
+    runs-on: xenoci-macos-latest
     steps:
       - run: echo job c; sleep 90
